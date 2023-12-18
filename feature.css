@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    user-select: none;
+}
+a.active{
+    color: tomato;
+}
+.navebar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(219, 217, 217);
+}
+.list-navebar{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.navebar{
+    padding: 25px;
+}
+.gallery{
+    /* display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:25px;
+   flex-wrap:wrap; */
+ width:70%;
+display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  padding: 30px 100px;
+  flex-wrap: wrap;
+  
+
+}
+.for-img{
+    width: 100%;
+}
+.for-img img{
+    width: 250px;
+}
+.boday-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+   line-height: 3;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 215, 218);
+    box-shadow: 0 12px 24px rgba(0 , 0, 0, 0.3);
+border-radius: 25px;
+cursor: pointer;
+}
+.boday-card:hover{ 
+ margin-left: -5px;
+ background-color: rgb(8, 8, 177);
+ color: white;
+
+}
+.buy-now{
+    width:100%;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    padding: 10px 0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius:25px ;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.buy-now:hover{
+color: rgb(196, 230, 8);
+background-color: brown;
+padding: 15px 0;
+}
+.rate{
+    color: rgb(255, 166, 0);
+    
+    }
+.feature-buttom{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: rgb(206, 206, 206);
+   cursor: pointer;
+  box-shadow: 0 10px 10px rgba(243, 1, 1, 0.945);
+   
+}
+.feature-buttom:hover{
+    transform: scale(1.2);
+    background-color: bisque;
+   
+}
+.feature-names{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   justify-content: center;
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+.bag{
+    border: 1px solid red;
+    border: none;
+    color: black;
+}
+
+.comment-img{
+    width: 100px;
+}
+.comment-img img {
+width: 100%;
+border-radius: 50px;
+}
+.paragraph-for-comment{
+  
+}
+.comment-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+background-color: rgb(201, 198, 198);
+
+padding: 20px 10px ;
+/* width: 80%; */
+/* margin: 0 25%; */
+
+
+}
+.happy-customers{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.comment-section-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+width: 90%;
+margin:0 auto ;
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+body{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+ 
+}
+a.active{
+    color: tomato;
+}
+.navebar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+.list-navebar{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.Top{
+    text-align: center;
+    width: 60%;
+    margin: 100px auto;
+}
+.Top p , form-area p{
+   font-size: 1.2rem;
+   line-height: 2.6;
+}
+.Top h1, form-area h1{
+    font-size: 3rem;
+}
+.map-with-text{
+    line-height: 1.7;
+}
+
+/* .map-with-text{
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.8;
+    text-align: center;
+    gap: 25px; */
+
+}
+.map-with-text h4{
+    /* line-height: 3px; */
+
+}
+.location-map{
+    padding: 0;
+    width: 70%;
+    margin: 100px auto;
+    background-color: rgb(228, 225, 225);
+    display: flex;
+    align-items: center;
+    gap: 25px; 
+}
+input, textarea{
+    display: block;
+    /* text-align: center;  */
+    justify-content: center;
+}
+.buttom-sub{
+    padding: 10px 20px;
+    width: 15%;
+    box-shadow: 5px 5px rgba(7, 7, 7, 0.8);
+    background-color: white;
+    transition: 0.05s ease;
+}
+.buttom-sub:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+
+}
+
+.send{
+   
+   color: tomato;
+    padding: 10px 50px;
+    font-size: 20px;
+}
+.buttpn-sbmit{
+    margin-top: 20px;
+    
+}
+.form-area{
+
+    /* text-align: center; */
+    width: 80%;
+    margin: 100px auto;
+    line-height: 1.4;
+    font-size: 20px;
+
+}
+form input[type="email"], input[type="mobile"], input[type="link"], textarea{
+    width: 60%;
+    padding: 20px;
+    margin-bottom: 25px;
+ 
+   
+}
+input:focus,textarea{
+    outline: none;
+}

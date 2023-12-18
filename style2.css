@@ -1,0 +1,124 @@
+*{padding:0;
+margin: 0;
+box-sizing: border-box;
+}
+.body-info{
+    width: 650px;
+    justify-content: space-around;
+    display: flex
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(215, 204, 204)
+    border-radius: 1%;
+    margin-right: 350px;
+    margin-left: 350px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-top: 5px;
+ box-shadow:-0px 1px 1px rgba(168, 163, 163, 0.5);
+}
+.pic1{
+    width:
+}
+.pic1 img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.eidt{
+    color: rgb(88, 87, 87);
+}
+.profile-all{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    padding-left: 10px;
+}
+.profile_name{
+    margin-left: 10px;
+    margin-right: 220px;
+}
+
+.icon{
+    margin-left: 2px;
+}
+.image-post{
+width: 100%;
+}
+
+.image-post img{
+    width: 600px;
+    padding-left: 50px;
+}
+.caption-post{
+    margin: 5px 5px;
+    font-size: 20px;
+    
+}
+.bx-smile{
+    font-size: 20px;
+    color: rgb(65, 65, 37);
+}
+.love{
+    color: green;
+    align-items: center;
+}
+.caption{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.reaction-contain{
+font-size:22px;
+padding: 10px;
+
+}
+
+.bxs-like{
+    color: rgb(0, 135, 189);
+    margin: -10px;
+       margin-right: 2px;
+}   
+.bxs-heart-circle{
+color: red;
+z-index: 10;
+
+}
+.reaction{
+display: flex;
+align-items: center;
+box-shadow: 5px;
+
+}
+.reaction-name{
+display: flex;
+gap: 129px;px;
+margin-left: -9px;
+}
+.Reation-box{
+
+}
+.Reation-box{
+   font-size: 20px;
+   align-items: center;
+   padding: 10px;
+   
+}
+.love-reaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.comment-box{
+   display: flex;
+   align-items: center;
+}
+.share-box{
+    display: flex;
+    align-items: center;
+}
+.border{
+    border: 1px solid rgba(0, 0, 0, 0.082);
+}
